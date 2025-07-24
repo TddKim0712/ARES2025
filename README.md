@@ -16,6 +16,7 @@
 해당 레포지토리는 Redundancy와 RTOS 위주의 코드 업로드가 이루어질 예정입니다.  
 
 ---
+### Cyclic Executive 
 
 ### 📦 Board A  
 **보드 A**는 `Arduino Nano 33 BLE Sense Rev2`를 사용합니다.  
@@ -23,11 +24,14 @@
 🔗 [Arduino Nano 33 BLE Sense Rev2 공식 문서](https://docs.arduino.cc/hardware/nano-33-ble-sense-rev2/)
 
 ---
+###  📦 Board B
+**보드 B**는 `Arduino Nano`를 사용합니다.  
+HW 제원은 이공이호와 유사합니다.
 
 #### mbed RTOS
 보드 A의 Arduino Nano 33 BLE Sense Rev2 는 일반 아두이노와 다르게 mbedOS가 탑재되어 있습니다.  
-일반 아두이노처럼 사용할 수 있지만 ARM에서 제공한 기능을 시험삼아 써보려고 합니다.  
-다음 사이트에 mbedOS가 제공하는 커널과 RTOS api가 있습니다.  
-https://os.mbed.com/docs/mbed-os/v6.16/mbed-os-api-doxy/group__rtos-public-api.html
+일반 아두이노처럼 사용할 수 있지만 ARM에서 제공한 기능을 시험삼아 써보려고 하였으나 Redundancy (이중화)와 시스템 동질화를 고려하여 진행하지 않습니다.
+
+
 
 
