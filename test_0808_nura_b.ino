@@ -1,3 +1,4 @@
+//0808 실제 발사 직전 코드, 비트슬라이싱 분리안됨
 //Cyclic Executive (Non-Preemptive Priority Scheduler)
 //SD 관련 수정한 보드 B, 거의 실전 직전 이므로 수정 불필요
 //쿼터니언 기반 자세 판단 추가
